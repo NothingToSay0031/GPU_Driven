@@ -54,3 +54,10 @@ This hybrid technique leverages both **depth-based clustering** and **screen-spa
    Iterate through lights in the bin and check against the tile’s bitmask to find **visible lights**.
 
 This method balances spatial granularity (tiles) with depth-aware light assignment (bins), providing a performant way to evaluate light lists at fragment level.
+
+# Usage
+
+1. Install CMake
+2. `python3 .\bootstrap.py`
+3. Install Vulkan SDK
+4. `cmake -B build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_POLICY_VERSION_MINIMUM="3.5"`
